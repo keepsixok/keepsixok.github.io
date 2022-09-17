@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+#container {
+    margin: 0 auto;
+    width: 90%;
+    height: 100vh;
+    border: black solid 2px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.border-bottom-nav {
+    height: 5px;
+    background-color: black;
+}
+
+
+main {
+    background-color: lime;
+    width: 90%;
+    height: 20vh;
+    border: greenyellow solid 4px;
+}
