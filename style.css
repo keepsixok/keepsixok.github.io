@@ -2,8 +2,6 @@ body {
     margin: 0;
 }
 
-    
-
 nav {
     display: flex;
     align-items: center;
@@ -19,10 +17,6 @@ section{
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-
-
 .chumba-container{
     margin: auto;
     width: 75vw;
@@ -31,11 +25,12 @@ section{
     border-radius: 15px;
     box-shadow: 5px 25px 21px -5px rgba(0,0,0,0.1);
     overflow: hidden;
+    background-color: antiquewhite;
 
 }
 .chumba-demo{
     margin: auto;
-    width: 95%;
+    width:80%;
     height: 100%;
 }
 
@@ -46,6 +41,7 @@ section{
 }
 .chumba-follow-path{
     position: relative;
+    left: -30px;
     top: 25px;
     
 }
