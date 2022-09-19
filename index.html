@@ -5,34 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <!-- *********************** GOOGLE FONTS *************************** -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     
-    <!-- ANIME JS *****************************************8 -->
+    <!--************************** ANIME JS ***************************************** -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
-    <title>Demos & Tests</title>
+    <title>Anime.js Test Area</title>
 </head>
+
 <body>
-    <div id="container">
+    <div id="main-container">
         <nav>
-            <h1>Canvas & Anime.js</h1>
+            <h1>Anime.js</h1>
         </nav>
-        <div class="border-bottom-nav"></div>
+        <section>
+        <p>Image Following SVG Path</p>
+        </section>
 
-        <main>
-            <div class="main-content">
-                <h1>Test Me Motherfucker</h1>
+        <div class="chumba-container" >
+            <div class="chumba-demo">
+                <div class="chumba chumba-follow-path">
+                    <img class="chumbaimg" src="./images/chumbawumba.png" alt="">
+                </div>
+             
+                <svg viewBox="0 0 1885 45" fill="none" preserveAspectRatio="xMidYMax meet" >
+                    <path class="chumba-path" d="M0.5 44L353 1.5L779 44L1199 1.5L1607.5 44L1884.5 1.5" stroke="black"/>
+                </svg>
+                    
+                    
+             
             </div>
-        </main>
-        
-    </div>
-   
-    
+         </div> 
 
+      
+    
+     </div> 
 
 
     <script src="app.js"></script>
-
-
 </body>
 </html>
+
+
+
